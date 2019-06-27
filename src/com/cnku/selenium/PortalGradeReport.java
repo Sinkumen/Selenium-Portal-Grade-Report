@@ -29,7 +29,7 @@ public class PortalGradeReport {
 
         driver.findElement(By.id("UserName")).sendKeys("ATR/5357/09");
         Thread.sleep(1000);
-        driver.findElement(By.id("Password")).sendKeys("4163");
+        driver.findElement(By.id("Password")).sendKeys("My Password");
         Thread.sleep(1000);
         driver.findElement(By.className("btn-success")).click();
         Thread.sleep(1000);
